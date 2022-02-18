@@ -44,3 +44,5 @@ Po otwarciu konsoli powinna pokazać się tabela z danymi wejściowymi do aplika
 
 1. Za napisanie funkcji odpowiadającej za zmianę rozmiaru komponentu (jak to zrobić - musisz przeanalizować kod w pliku `script.js` - nie modyfikuj tego pliku)
 2. Napisanie funkcji sortującej - zanim funkcja `mapData` zwróci zmapowane dane powinna je posortować. Posortuj dane po imieniu, a następnie po nazwisku.
+
+asdf
