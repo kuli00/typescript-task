@@ -23,9 +23,27 @@ Komponent przyjmuje następujące parametry:
 
 ## Jak wykonać zadanie?
 
-Aby prawidłowo wykonać zadanie plik `src/index.ts` powinien wyeksportować domyślnie funkcję, która przyjmie jako 
+1. Zrób forka tego repozytorium do swojego konta i pracuj na swoim repo na nowym branchu z twoim imieniem np. `maciej-kulinski`
+
+2. Aby prawidłowo wykonać zadanie plik `src/index.ts` powinien wyeksportować domyślnie funkcję, która przyjmie jako 
 parametr tablice wszystkich użytkowników i zwróci tablicę obiektów - takich których będzie można użyć do wyrenderowania
-komponentów.
+komponentów. 
+
+3. Wyszstkie zmiany wprowadzaj **tylko i wyłącznie** w katalogu `src`
+
+4. zacommituj zmiany do swojego brancha a następnie utwórz Pull Request do mojego repozytorium:
+   1. Wejdź na githubie do swojego repo
+   2. kliknij zakładkę `Pull requests`
+   3. Kliknij przycisk `New pull request`
+   4. Upewnij się że na górze, opcja `base repository` jest ustawiona jako `kuli0110/typescript-task`
+   5. Utwórz Pull request
+   6. Daj mi znać a ja zrobię Code Review
+
+## Co będzie sprawdzane?
+1. Typowanie zmiennych, funkcji, unii
+2. Przejrzystość kodu
+3. Jakość kodu
+
 
 ## Uruchomienie aplikacji w trybie developerskim
 ```shell
