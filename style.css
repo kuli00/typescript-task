@@ -1,0 +1,66 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica', sans-serif;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card.large {
+    width: 700px;
+    min-height: 270px;
+}
+
+.card.medium {
+    width: 500px;
+    min-height: 120px;
+}
+
+.card.small {
+    width: 350px;
+    min-height: 70px;
+}
+
+.card > img {
+    float: left;
+    margin: 10px;
+}
+
+
+.card.large > img {
+    width: 250px;
+    height: 250px;
+}
+
+.card.medium > img {
+    width: 100px;
+    height: 100px;
+}
+
+.card.small > img {
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    font-size: 23px;
+}
+
+.name > span {
+    font-size: 12px;
+    display: block;
+}
+
+.gender {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 5px;
+}
+
+.about {}
