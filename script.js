@@ -75,20 +75,3 @@ const addComponent = ({
 
   mainElement.appendChild(newComponent);
 }
-
-addComponent({
-  name: 'Andrzej Andrzejewicz',
-  pictureSource: 'https://i.pinimg.com/custom_covers/222x/85498161615209203_1636332751.jpg',
-  occupation: 'bezrobotny',
-  gender: 'Male',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad amet consequuntur dicta doloremque, eaque enim eos est eum explicabo fuga hic, impedit in minima minus mollitia natus neque quia quis quod ratione repellat similique tempore temporibus, voluptas! Blanditiis cupiditate dicta ea eligendi impedit ipsum iure, optio provident velit veritatis?',
-  size: 'large',
-  onButtonClick: (direction, component) => {
-    console.log(direction, component);
-    if (direction === 'shrink') {
-      component.classList.remove('large');
-      component.classList.remove('medium');
-      component.classList.add('small');
-    }
-  }
-})
