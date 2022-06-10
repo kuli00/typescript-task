@@ -21,7 +21,7 @@ const convertGender = (gender: string): Gender => {
   }
 };
 
-const handleComponentSize = (component: HTMLElement) => {
+const handleComponentSize = (component: HTMLElement): string => {
   const sizes: Size[] = ["small", "medium", "large"];
   const [currentSize] = sizes.filter((size) => {
     if (component.classList.contains(size)) return size;
@@ -30,7 +30,7 @@ const handleComponentSize = (component: HTMLElement) => {
 };
 
 const onButtonClick = (direction: Direction, component: HTMLElement): void => {
-  const currentSize = handleComponentSize(component);
+  const currentSize: string = handleComponentSize(component);
 
   if (direction === "grow") {
     switch (currentSize) {

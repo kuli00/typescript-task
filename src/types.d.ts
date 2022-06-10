@@ -12,7 +12,7 @@ export interface PropsSingleData {
   image: URL;
   occupation: string;
   about: string;
-  card_size: Size;
+  card_size: string;
   contact: string;
 }
 
@@ -23,7 +23,7 @@ export interface SingleData {
   gender: Gender;
   about: Text;
   size: Size;
-  onButtonClick(direction: Direction, component): void;
+  onButtonClick(direction: Direction, component: HTMLElement): void;
   email?: Email;
   phone?: PhoneNumber;
 }
